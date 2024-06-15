@@ -6,10 +6,11 @@ namespace ToDoList.Context
     public class ApplicationDbContext : DbContext
     {
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=SchoolDb;Trusted_Connection=True;");
         }
+
         public DbSet<Users> Users { get; set; }
     }
 }

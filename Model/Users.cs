@@ -2,24 +2,24 @@
 {
     public class Users
     {
-        public int Codigo { get; set; }
+        public int Cod { get; set; }
 
-        public string id { get; set; }
+        public string ID { get; set; }
 
-        public string FirstName { get; set; }
+        public string FIRST_NAME { get; set; }
 
-        public string MiddleName { get; set; }
+        public string MIDDLE_NAME { get; set; }
 
-        public string LastName { get; set; }
+        public string LAST_NAME { get; set; }
 
-        public string DateBirth { get; set; }
+        public string DATE_BIRTH { get; set; }
 
-        public string Email { get; set; }
+        public string EMAIL { get; set; }
 
-        public string Phone { get; set; }
+        public string PHONE { get; set; }
 
-        public string UserName { get; set; }
+        public string USERNAME { get; set; }
 
-        public string Nationatily { get; set; }
+        public string NATIONALITY { get; set; }
     }
 }

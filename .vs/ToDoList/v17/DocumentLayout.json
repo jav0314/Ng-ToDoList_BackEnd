@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\Programacion\\Repositorios en git\\Ng-ToDoList Back-end\\ToDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1A67855-68E0-4104-838A-C93F6AEDA51C}|ToDoList.csproj|c:\\users\\lenovo\\desktop\\programacion\\repositorios en git\\ng-todolist back-end\\todolist\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1A67855-68E0-4104-838A-C93F6AEDA51C}|ToDoList.csproj|solutionrelative:context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1A67855-68E0-4104-838A-C93F6AEDA51C}|ToDoList.csproj|c:\\users\\lenovo\\desktop\\programacion\\repositorios en git\\ng-todolist back-end\\todolist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C1A67855-68E0-4104-838A-C93F6AEDA51C}|ToDoList.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C1A67855-68E0-4104-838A-C93F6AEDA51C}|ToDoList.csproj|c:\\users\\lenovo\\desktop\\programacion\\repositorios en git\\ng-todolist back-end\\todolist\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1A67855-68E0-4104-838A-C93F6AEDA51C}|ToDoList.csproj|solutionrelative:model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A67855-68E0-4104-838A-C93F6AEDA51C}|ToDoList.csproj|c:\\users\\lenovo\\desktop\\programacion\\repositorios en git\\ng-todolist back-end\\todolist\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A67855-68E0-4104-838A-C93F6AEDA51C}|ToDoList.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A67855-68E0-4104-838A-C93F6AEDA51C}|ToDoList.csproj|c:\\users\\lenovo\\desktop\\programacion\\repositorios en git\\ng-todolist back-end\\todolist\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A67855-68E0-4104-838A-C93F6AEDA51C}|ToDoList.csproj|solutionrelative:dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A67855-68E0-4104-838A-C93F6AEDA51C}|ToDoList.csproj|c:\\users\\lenovo\\desktop\\programacion\\repositorios en git\\ng-todolist back-end\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A67855-68E0-4104-838A-C93F6AEDA51C}|ToDoList.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,37 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Programacion\\Repositorios en git\\Ng-ToDoList Back-end\\ToDoList\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Programacion\\Repositorios en git\\Ng-ToDoList Back-end\\ToDoList\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-15T03:16:38.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Programacion\\Repositorios en git\\Ng-ToDoList Back-end\\ToDoList\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Programacion\\Repositorios en git\\Ng-ToDoList Back-end\\ToDoList\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Context\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T02:41:06.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Programacion\\Repositorios en git\\Ng-ToDoList Back-end\\ToDoList\\Model\\Users.cs",
               "RelativeDocumentMoniker": "Model\\Users.cs",
@@ -60,7 +38,46 @@
               "RelativeToolTip": "Model\\Users.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T20:23:37.983Z",
+              "WhenOpened": "2024-06-15T06:22:39.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Programacion\\Repositorios en git\\Ng-ToDoList Back-end\\ToDoList\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Programacion\\Repositorios en git\\Ng-ToDoList Back-end\\ToDoList\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T05:43:02.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Programacion\\Repositorios en git\\Ng-ToDoList Back-end\\ToDoList\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Programacion\\Repositorios en git\\Ng-ToDoList Back-end\\ToDoList\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAlwFAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T06:11:54.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Programacion\\Repositorios en git\\Ng-ToDoList Back-end\\ToDoList\\DbContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DbContext\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Programacion\\Repositorios en git\\Ng-ToDoList Back-end\\ToDoList\\DbContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DbContext\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T05:46:11.629Z",
               "EditorCaption": ""
             }
           ]
