@@ -12,7 +12,7 @@
 
         public string LAST_NAME { get; set; }
 
-        public string DATE_BIRTH { get; set; }
+        public DateOnly DATE_BIRTH { get; set; }
 
         public string EMAIL { get; set; }
 

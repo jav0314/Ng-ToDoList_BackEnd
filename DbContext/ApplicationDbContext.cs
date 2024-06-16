@@ -7,10 +7,13 @@ namespace ToDoList.Context
     {
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
+      : base(options)
         {
-        }
 
+        }
         public DbSet<Users> Users { get; set; }
+        public DbSet<Countries> Countries { get; set; }
+
+
     }
 }
