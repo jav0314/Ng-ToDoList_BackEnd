@@ -96,7 +96,9 @@ namespace ToDoList.Controllers
             }
 
             return CreatedAtAction("GetUsers", new { id = users.ID }, users);
+
         }
+
 
         // DELETE: api/Users/5
         [HttpDelete("{id}")]

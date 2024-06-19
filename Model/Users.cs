@@ -20,6 +20,8 @@
 
         public string USERNAME { get; set; }
 
+        public string PASSWORD { get; set; }
+
         public string NATIONALITY { get; set; }
     }
 }
