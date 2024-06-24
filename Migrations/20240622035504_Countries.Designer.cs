@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ToDoList.Context;
 
@@ -11,9 +12,11 @@ using ToDoList.Context;
 namespace ToDoList.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240622035504_Countries")]
+    partial class Countries
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -45,12 +48,12 @@ namespace ToDoList.Migrations
 
             modelBuilder.Entity("ToDoList.Model.Users", b =>
                 {
-                    b.Property<int>("COD")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("Relational:JsonPropertyName", "Cod");
+                    b.Property<string>("ID")
+                        .HasColumnType("nvarchar(450)")
+                        .HasAnnotation("Relational:JsonPropertyName", "id");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("COD"));
+                    b.Property<int>("Cod")
+                        .HasColumnType("int");
 
                     b.Property<DateOnly>("DATE_BIRTH")
                         .HasColumnType("date")
@@ -91,17 +94,12 @@ namespace ToDoList.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasAnnotation("Relational:JsonPropertyName", "phone");
 
-                    b.Property<string>("SECOND_SURNAME")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasAnnotation("Relational:JsonPropertyName", "secondSurname");
-
                     b.Property<string>("USERNAME")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
                         .HasAnnotation("Relational:JsonPropertyName", "userName");
 
-                    b.HasKey("COD");
+                    b.HasKey("ID");
 
                     b.ToTable("Users");
                 });
